@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/dizhi1.css">
+	<title>收货地址</title>
+	
+</head>
+<body>
+	<div class="search_result">
+		<!-- 导航栏 -->
+		<nav class="clearfix">
+			<a href="dizhi.html" id="search_result"></a>
+			<span>收货地址</span>
+			<a href="###" class="right">编辑</a>
+		</nav>
+
+		<div class="content">
+			<ul>
+				<li class="clearfix">
+					<span class="s1">收货人姓名</span>
+				</li>
+				<li class="clearfix">
+					<span class="s1">联系电话</span>
+				</li>
+				<li class="clearfix">
+					<span class="s1">城市： 选择</span>
+					<select id="province">
+					<option>省级</option>
+					</select>
+					<span class="s1">选择</span>
+					<select id="city">
+					<option>城市</option>
+					</select>
+					<span class="s1">选择</span>
+					<select id="county">
+					<option>区</option>
+					</select>
+					
+
+				</li>
+				<li class="clearfix">
+					<span class="s1">小区、街道、门牌等详细信息</span>
+				</li>
+				<li class="clearfix">
+					<span class="s2">设置默认地址</span>
+					<span class="s3">
+						<input class="weui_switch switch-default" type="checkbox">
+					</span>
+				</li>
+
+			</ul>
+
+			<button id="btn">确&nbsp;&nbsp;&nbsp;&nbsp;认</button>
+		</div>
+		
+		
+	</div>
+	<script type="text/javascript" src="../js/china.js"></script>
+
+	<script type="text/javascript">
+
+	var province = document.getElementById("province");
+	var city = document.getElementById("city");
+	var county = document.getElementById("county");
+
+	var chinaArea = JSON.parse(chinaArea);
+	var provinceList = chinaArea.china.province;
+	for(var i = 0; i < provinceList.length; i++) {
+		var option = document.createElement("option");
+		option.innerHTML = provinceList[i]["-name"];
+		province.appendChild(option);
+	}
+
+		province.onchange = function() {
+			cityData();
+			countyData();
+		}
+		cityData();
+		var sIndex = 0;
+		var cityIndex = 0;
+		function cityData() {
+			city.innerHTML = "";
+			sIndex = province.selectedIndex;
+			for(var j = 0; j < provinceList[sIndex].city.length; j++) {
+				var option = document.createElement("option");
+				option.innerHTML = provinceList[sIndex].city[j]["-name"];
+				city.appendChild(option);
+			}
+		}
+
+		function countyData() {
+			county.innerHTML = "";
+			cityIndex = city.selectedIndex;
+			var countyList = chinaArea.china.province[sIndex].city[cityIndex].county;
+			for(var k = 0; k < countyList.length; k++) {
+				var option = document.createElement("option");
+				option.innerHTML = countyList[k]["-name"];
+				county.appendChild(option);
+			}
+		}
+
+		city.onchange = function() {
+			countyData();
+		}
+		countyData();
+		
+
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

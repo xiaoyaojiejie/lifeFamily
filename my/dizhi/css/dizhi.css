@@ -1,0 +1,86 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.search_result {
+	position:relative;
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#search_result {
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 16px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.6rem;
+	color:#fff;	
+	margin-left:-7px;	
+}
+
+/*正文*/
+ul,li{
+	width: 100%;
+}
+li {
+	position: relative;
+	height: 84px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	overflow: hidden;
+}
+li a .top {
+	margin:10px;
+	font-size: 1.5rem;
+	color: #333;
+}
+li a .bottom {
+	margin:10px;
+	font-size: 1.5rem;
+	color: #333;
+}
+li a .bottom .s3 {
+	color: #f29004;
+	margin-right: 4px;
+}
+li a .top .s2 {
+	margin-left: 18px;
+}
+li a {
+	width: 100%;
+}
+li a .right {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	right: 10px;
+	bottom: 37px;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+}
+
+
+
+
+
+
+
+

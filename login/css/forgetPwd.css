@@ -1,0 +1,112 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.login {
+	width: 100%;
+	height: 100%;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#forgetPwd {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 18px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;	
+	margin-left:-7px;	
+}
+
+.loginLogo {
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+}
+form {
+	width: 80%;
+	/*margin-left: 10%;*/
+	margin: 0 auto;
+}
+#account1 {
+	width: 100%;
+	height: 48px;
+	background-color: #fff;
+	text-indent: 1em;
+	border: none;
+	font-size: 1.5rem;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	margin-top:35px;
+	border:1px solid #ddd;
+}
+/*验证码输入框*/
+.verificationCode {
+	width: 55%;
+	height: 48px;
+	background-color: #fff;
+	text-indent: 1em;
+	border:1px solid #ddd;
+	font-size: 1.5rem;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	float:left;
+}
+/*验证码发送*/
+#verificationCode {
+	width: 42%;
+	height: 48px;
+	background-color: #ea6c6c;
+	border:1px solid #ddd;
+	font-size: 1.5rem;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	margin-left:2%;
+	color:#fff;
+}
+#btn1 {
+	width: 100%;
+	height: 46px;
+	background-color: #f29004;
+	font-size: 1.5rem;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+}
+.mima {
+	width: 100%;
+	border-radius:8px;
+	border:1px solid #ddd;
+	background-color: #fff;
+	margin-bottom:30%;
+}
+.pwd {
+	width: 90%;
+	height: 48px;
+	font-size: 1.5rem;
+	border:none;
+	margin-left:16px;
+}
+.pwd1 {
+	width: 90%;
+	height: 48px;
+	font-size: 1.5rem;
+	border:none;
+	margin-left:16px;
+	border-top:1px solid #ddd;
+}

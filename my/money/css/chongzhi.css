@@ -1,0 +1,112 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.login {
+	width: 100%;
+	height: 100%;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#back {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 18px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;		
+}
+#register {
+	float: right;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.con {
+	width: 100%;
+	text-align: center;
+	margin-top: 60px;
+}
+.con img {
+	width: 82px;
+	height: 90px;
+	margin:0 auto;
+}
+.con .p1 {
+	font-size: 1.4rem;
+	color: #666;
+	margin-top: 24px;
+}
+.con .p2 {
+	font-size: 2.4rem;
+	color: #000;
+}
+
+.content {
+	position: relative;
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.content .txt {
+	width: 100%;
+	height: 44px;
+	border: none;
+	border-bottom: 1px solid #dbdbdb;
+	outline: none;
+	text-indent: 4em;
+	font-size: 1.5rem;
+	background: url(../img/zhifubao.png) no-repeat;
+	background-size: 30px;
+	background-position: 18px 6px;
+}
+.content .yam {
+	width: 100%;
+	height: 44px;
+	border: none;
+	outline: none;
+	text-indent: 4em;
+	font-size: 1.5rem;
+}
+#btn {
+	width: 88%;
+	height: 48px;
+	margin-left: 6%;
+	margin-top: 12%;
+	font-size: 1.6rem;
+	color: #fff;
+	border-radius: 5px;
+	background-color: #26c08a;
+	outline: none;
+	border:none;
+}
+.content span {
+	position: absolute;
+	top: 58px;
+	left: 20px;
+	font-size: 1.4rem;
+	color: #808080;
+}
+
+
+
+
+
+
+
+

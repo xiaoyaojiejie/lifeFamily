@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/dizhi.css">
+	<title>收货地址</title>
+	
+</head>
+<body>
+	<div class="search_result">
+		<!-- 导航栏 -->
+		<nav class="clearfix">
+			<a href="../huiyuan/my.html" id="search_result"></a>
+			<span>收货地址</span>
+		</nav>
+		
+		<ul>
+			<li>
+				<a href="dizhi1.html">
+					<div class="top">
+						<span class="s1">刘晓心</span>
+						<span class="s2">13562021254</span>
+					</div>
+					<div class="bottom">
+						<span class="s3">[默认]</span>
+						<span class="s4">广州市天河区东圃时代TIT广场</span>
+					</div>
+					<div class="right"></div>
+				</a>
+			</li>
+			<li>
+				<a href="dizhi1.html">
+					<div class="top">
+						<span class="s1">刘晓心</span>
+						<span class="s2">13562021254</span>
+					</div>
+					<div class="bottom">
+						<span class="s3"></span>
+						<span class="s4">广州市天河区东圃时代TIT广场</span>
+					</div>
+					<div class="right"></div>
+				</a>
+			</li>
+		</ul>
+
+	</div>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			// $("li .tx").on("click",function() {
+			// 	$(this).addClass(" dianji");
+			// })
+			$(".gong .tx").click(function() {
+				$(this).hide().siblings().show();
+			})
+			$(".gong .dianji").click(function() {
+				$(this).hide().siblings().show();
+			})
+		})
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

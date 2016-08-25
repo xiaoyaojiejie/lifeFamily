@@ -1,0 +1,164 @@
+body {
+	background-color: #fff;
+	font-family: "Hiragino Sans GB";
+}
+.search_result {
+	position:relative;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#search_result {
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 16px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.6rem;
+	color:#fff;	
+	margin-left:-7px;	
+}
+
+/*正文*/
+ul {
+	width: 100%;
+	background-color: #fff;
+}
+li {
+	width: 94%;
+	margin-left: 3%;
+}
+.li2 {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+.li2 .goumai {
+	margin-left: 10px;
+	line-height: 40px;
+	float: left;
+	font-size: 1.3rem;
+	color: #666;
+}
+.li2 .fukuan {
+	margin-right: 10px;
+	line-height: 40px;
+	float: right;
+	font-size: 1.3rem;
+	color: #666;
+}
+.li3 {
+	height: 94px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+.li3 .left {
+	width: 16%;
+	height: 70px;
+	margin-top:10px;
+	margin-right:10px;
+	border:1px solid #ddd;
+	float: left;
+}
+.li3 .right {
+	float: left;
+	width: 80%;
+	height: 70px;
+	margin-top: 10px;
+}
+.li3 .right p {
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+.li3 .right .p11 {
+	color: #1a1a1a;
+}
+.li3 .right .p22 {
+	color: #757575;
+	font-size: 1.3rem;
+}
+.li3 .right .p33 {
+	color: #757575;
+}
+.li3 .right .p33 .le{
+	color: #de0000;
+	float: left;
+}
+.li3 .right .p33 .ri{
+	float: right;
+}
+#btn {
+	width: 90%;
+	height: 45px;
+	background-color: #f29004;
+	margin-top: 55%;
+	margin-left: 5%;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.pinglun {
+	position: relative;
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.5rem;
+	color: #666;
+}
+.pinglun .star {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width:100px;
+	height: 20px;
+}
+.star .smallStar {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../img/star1.png) no-repeat;
+}
+.star .yellowStar {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../img/star2.png) no-repeat;
+}
+#txt {
+	width: 94%;
+	margin-left: 3%;
+	height: 80px;
+	background-color: #f2f2f2;
+	resize: none;
+	border:1px solid #ddd;
+	text-indent: 1em;
+	padding-top: 10px;
+	font-size: 1.5rem;
+	outline: none;
+}
+
+
+
+
+
+
+
+

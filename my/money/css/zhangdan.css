@@ -1,0 +1,86 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.login {
+	width: 100%;
+	height: 100%;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#back {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 18px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;		
+}
+#register {
+	float: right;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.content {
+	width: 100%;
+	margin-top: 10px;
+}
+.content h2 {
+	margin-left: 3%;
+	font-size: 1.6rem;
+	color:#666;
+}
+.content ul {
+	width: 100%;
+	background-color: #fff;
+	margin-top: 6px;
+}
+.content ul li{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #f2f2f2;
+}
+li .left {
+	float: left;
+	margin-left: 3%;
+}
+li .left .p1 {
+	font-size: 1.6rem;
+	margin-top: 10px;
+	color: #1a1a1a;
+}
+li .left .p2 {
+	color: #666;
+	font-size: 1.4rem;
+
+}
+li .right {
+	float: right;
+	font-size: 1.6rem;
+	margin-right: 3%;
+	margin-top: 10px;
+	color: #1a1a1a;
+
+}
+
+
+
+
+
+
+
+

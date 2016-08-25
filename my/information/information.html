@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/information.css">
+	<title>基本资料</title>
+	
+</head>
+<body>
+	<div class="login">
+		<!-- 导航栏 -->
+		<nav class="clearfix">
+			<a href="../huiyuan/my.html" id="forgetPwd"></a>
+			<span>基本资料</span>
+		</nav>
+
+		<div class="content">
+			<ul class="con1 con">
+				<li>
+					<a href="javascript:void(0);" class="clearfix" id="btn1">
+						<input name="file[]" id="file" type="file" accept="image/*" multiple="multiple">
+						<span class="s1 span1">头像</span>
+						<span class="s4"></span>
+						<span class="s3" id="div1">
+							<img src="img/information.png">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="xingming.html" class="clearfix">
+						<span class="s1">姓名</span>
+						<span class="s2"></span>
+						<span class="s5">李晓晓</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" class="clearfix">
+						<span class="s1">会员标识</span>
+						<span class="s6">
+							<img src="img/information1.png">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="contact.html" class="clearfix">
+						<span class="s1">联系方式</span>
+						<span class="s2"></span>
+						<span class="s5">136****1245</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="con1">
+				<li>
+					<a href="change.html" class="clearfix">
+						<span class="s1">修改密码</span>
+						<span class="s2"></span>
+					</a>
+				</li>
+				<li>
+					<a href="change1.html" class="clearfix">
+						<span class="s1">修改钱包密码</span>
+						<span class="s2"></span>
+					</a>
+				</li>
+				<li>
+					<a href="ican.html" class="clearfix">
+						<span class="s1">我能供应</span>
+						<span class="s2"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript">
+		//上传图片
+		var file = document.getElementById("file");
+		var btn1 = document.getElementById("btn1");
+		var div1 = document.getElementById("div1");
+		btn1.onclick = function(){
+			file.click();
+		}
+		var fileMsg = [];//定义一个有多少张图片数据数组
+		var reader =[];
+		file.onchange = function(){
+			// console.log(this.files);
+			for(var i =0;i<this.files.length;i++){//判断有多少张图片
+				reader[i] = new FileReader();
+				reader[i].index = i;
+				 fileMsg[i] = this.files[i];
+				// console.log(this);
+				reader[i].readAsDataURL(fileMsg[i]);
+				// console.log(reader);
+				reader[i].onload = function(e){//图片加载完成后执行
+					div1.innerHTML ="<img src="+this.result+">";
+				}
+			}
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

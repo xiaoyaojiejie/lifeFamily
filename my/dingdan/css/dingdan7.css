@@ -1,0 +1,193 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.search_result {
+	position:relative;
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#search_result {
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 16px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.6rem;
+	color:#fff;	
+	margin-left:-7px;	
+}
+
+/*正文*/
+ul,li{
+	width: 100%;
+	background-color: #fff;
+}
+.li1 {
+	position: relative;
+	height: 84px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.li1 a .top {
+	margin:10px;
+	font-size: 1.5rem;
+	color: #333;
+}
+.li1 a .bottom {
+	margin:10px;
+	font-size: 1.5rem;
+	color: #333;
+}
+.li1 a .bottom .s3 {
+	color: #f29004;
+	margin-right: 4px;
+}
+.li1 a .top .s2 {
+	margin-left: 18px;
+}
+.li1 a {
+	width: 100%;
+}
+.li1 a .right {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	right: 10px;
+	bottom: 37px;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+}
+.li2 {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+.li2 .goumai {
+	margin-left: 10px;
+	line-height: 40px;
+	float: left;
+	font-size: 1.3rem;
+	color: #666;
+}
+.li2 .fukuan {
+	margin-right: 10px;
+	line-height: 40px;
+	float: right;
+	font-size: 1.3rem;
+	color: #666;
+}
+.li5 {
+	height: 46px;
+	border-bottom: 1px solid #ddd;
+}
+.li5 .goumai {
+	margin-left: 10px;
+	line-height: 46px;
+	float: left;
+	font-size: 1.3rem;
+	color: #666;
+}
+.li5 .fukuan {
+	margin-right: 10px;
+	line-height: 46px;
+	float: right;
+	font-size: 1.3rem;
+	color: #666;
+}
+.li3 {
+	height: 94px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+.li3 .left {
+	width: 16%;
+	height: 70px;
+	margin:10px;
+	border:1px solid #ddd;
+	float: left;
+}
+.li3 .right {
+	float: left;
+	width: 74%;
+	height: 70px;
+	margin-top: 10px;
+}
+.li3 .right p {
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+.li3 .right .p11 {
+	color: #1a1a1a;
+}
+.li3 .right .p22 {
+	color: #757575;
+	font-size: 1.3rem;
+}
+.li3 .right .p33 {
+	color: #757575;
+}
+.li3 .right .p33 .le{
+	color: #de0000;
+	float: left;
+}
+.li3 .right .p33 .ri{
+	float: right;
+}
+.li4 {
+	height: 40px;
+	font-size: 1.3rem;
+	color: #666;
+	border-bottom: 1px solid #ddd;
+	margin-top: 10px;
+	line-height: 40px;
+	text-indent: 10px;
+}
+.li6 {
+	height: 150px;
+	font-size: 1.3rem;
+	color: #666;
+	padding-top: 10px;
+}
+.li6 p {
+	margin-left: 10px;
+	line-height: 20px;
+}
+
+#btn {
+	width: 90%;
+	height: 45px;
+	background-color: #f29004;
+	margin-top: 5%;
+	margin-left: 5%;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+

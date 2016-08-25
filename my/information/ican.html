@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/ican.css">
+	<title>我能供应</title>
+	
+</head>
+<body>
+	<div class="login">
+		<!-- 导航栏 -->
+		<nav class="clearfix">
+			<a href="information.html" id="forgetPwd"></a>
+			<span>我能供应</span>
+		</nav>
+
+		<input type="text" placeholder="行业类型" id="text"></input>
+		<input type="text" placeholder="我能供应" id="text1"></input>
+		<textarea rows="10" rows="30" class="txt" placeholder="描述"></textarea>
+		<p>图片：</p>
+		<!-- 上传图片 -->
+		<div class="clearfix">
+			<input name="file[]" id="file" type="file" accept="image/*" multiple="multiple">
+			<div id="div1"></div>
+			<button class="tupian" id="btn1">+</button>
+		</div>
+
+		<button id="btn">确&nbsp;&nbsp;&nbsp;认</button>
+		
+	</div>
+	<script type="text/javascript">
+		//上传图片
+		var file = document.getElementById("file");
+		var btn1 = document.getElementById("btn1");
+		var div1 = document.getElementById("div1");
+		btn1.onclick = function(){
+			file.click();
+		}
+		var fileMsg = [];//定义一个有多少张图片数据数组
+		var reader =[];
+		file.onchange = function(){
+			// console.log(this.files);
+			for(var i =0;i<this.files.length;i++){//判断有多少张图片
+				reader[i] = new FileReader();
+				reader[i].index = i;
+				 fileMsg[i] = this.files[i];
+				// console.log(this);
+				reader[i].readAsDataURL(fileMsg[i]);
+				// console.log(reader);
+				reader[i].onload = function(e){//图片加载完成后执行
+					div1.innerHTML = div1.innerHTML + "<img src="+this.result+">";
+				}
+			}
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

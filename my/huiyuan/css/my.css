@@ -1,0 +1,206 @@
+body {
+	background-color:#f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.my {
+	width: 100%;
+	height: 100%;
+}
+.my .he {
+	width: 100%;
+	height: 224px;
+	display: block;
+	background:url("../img/kylie1.png") no-repeat;
+	background-size:100%;
+	text-align:center;
+	overflow: hidden;
+}
+.my .hao {
+	position:relative;
+	margin:0 auto;
+	margin-top: 8%;
+	width: 86px;
+	height: 86px;
+	margin-bottom: 10px;
+	border-color: #000;
+}
+.hao .touxiang {
+	width: 100%;
+}
+.my .zuanshi {
+	position:absolute;
+	left: 68%;
+	top: 76%;
+	width: 20px;
+	height: 20px;
+}
+.he p {
+	font-size: 1.6rem;
+	color: #fff;
+}
+.he .btn {
+	width: 68px;
+	border:1px solid #fff;
+	color:#fff;
+	background-color: hsla(0,0%,50%,0.6);
+	border-radius: 8px;
+	margin-top: 10px;	
+}
+.con {
+	width: 100%;
+}
+.con ul {
+	width: 100%;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.con ul:nth-of-type(2) {
+	margin-bottom: 10px;
+}
+.con li {
+	width: 94%;
+	height: 46px;
+	line-height: 46px;
+	margin-left: 3%;
+	border-bottom: 1px solid #ddd;
+}
+.con li>a {
+	width: 100%;
+	height: 100%;
+	font-size:1.4rem;
+	color:#1a1a1a;
+	display: block;
+}
+.con li a .s1{
+	float: left;
+	text-indent: 3em;
+}
+.con li a .s2{
+	float: right;
+	width: 10px;
+	height: 10px;
+	border-top:1px solid #bebebe;
+	border-right:1px solid #bebebe;
+	margin-top:18px;
+	-webkit-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+}
+.con .li1 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px 12px;
+}
+.con .li2 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -36px;
+}
+.con .li3 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -82px;
+}
+.con .li4 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -130px;
+}
+.con .li5 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -178px;
+}
+.con .li6 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -226px;
+}
+.con .li7 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -284px;
+}
+.con .li8 {
+	background:url(../img/my.png) no-repeat;
+	background-size:32px;
+	background-position:4px -334px;
+}
+
+/*底部*/
+footer {
+	width: 100%;
+	height: 68px;
+}
+.footer-bottom {
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height:64px;
+	padding-top:4px;
+	background-color: #fff;
+	border-top:1px solid #ddd;
+}
+footer a {
+	width: 20%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+a p {
+	font-size: 1.4rem;
+	color:#808080;
+	/*margin-top: 4px;*/
+	text-align: center;
+}
+.f5 p {
+	color:#f6b26d;
+}
+.f1 .xb1 {
+	background: url(../img/page_bottom.png) no-repeat;
+	background-size: 150px;
+	background-position: 2px 8px;
+	width: 32px;
+	height: 36px;
+	margin:0 auto;
+}
+.f2 .xb2 {
+	background: url(../img/page_bottom.png) no-repeat;
+	background-size: 150px;
+	background-position: -30px 8px;
+	width: 32px;
+	height: 36px;
+	margin:0 auto;
+}
+.f3 .xb3 {
+	background: url(../img/page_bottom.png) no-repeat;
+	background-size: 150px;
+	background-position: -62px 8px;
+	width: 32px;
+	height: 36px;
+	margin:0 auto;
+}
+.f4 .xb4 {
+	background: url(../img/page_bottom.png) no-repeat;
+	background-size: 150px;
+	background-position: -94px 8px;
+	width: 32px;
+	height: 36px;
+	margin:0 auto;
+}
+.f5 .xb5 {
+	background: url(../img/page_bottom.png) no-repeat;
+	background-size: 150px;
+	background-position: -126px -26px;
+	width: 32px;
+	height: 36px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+

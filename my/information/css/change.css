@@ -1,0 +1,107 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.login {
+	width: 100%;
+	height: 100%;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#forgetPwd {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 18px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;	
+	margin-left:-7px;	
+}
+
+/*正文*/
+.txt {
+	width: 100%;
+	height: 190px;
+	resize: none;
+	outline: none;
+	text-indent: 2em;
+	padding-top: 10px;
+	font-size: 1.5rem;
+	border: none;
+}
+#btn {
+	width: 88%;
+	height: 48px;
+	background-color: #f29004;
+	margin-left: 6%;
+	margin-top: 88%;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+#text {
+	width: 94%;
+	height: 48px;
+	background-color: #fff;
+	margin-left: 3%;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	color: #666;
+	font-size: 1.5rem;
+	text-indent: 1em;
+}
+.content {
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.content .txt {
+	width: 100%;
+	height: 44px;
+	border: none;
+	border-bottom: 1px solid #dbdbdb;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	outline: none;
+	text-indent: 1em;
+	font-size: 1.5rem;
+}
+.content .yam {
+	width: 100%;
+	height: 44px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+	outline: none;
+	text-indent: 1em;
+	font-size: 1.5rem;
+}
+.login p {
+	margin-left: 4%;
+	color:#666;
+	margin-top: 10px;
+}
+
+
+
+
+
+

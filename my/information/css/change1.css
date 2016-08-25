@@ -1,0 +1,124 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.login {
+	width: 100%;
+	height: 100%;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#forgetPwd {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 18px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;	
+	margin-left:-7px;	
+}
+
+/*正文*/
+#btn {
+	width: 88%;
+	height: 48px;
+	background-color: #f29004;
+	margin-left: 6%;
+	margin-top: 70%;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.con {
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	margin-top: 22px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.con .txt1 {
+	width: 100%;
+	height: 44px;
+	border: none;
+	border-bottom: 1px solid #dbdbdb;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	outline: none;
+	text-indent: 1em;
+	font-size: 1.5rem;
+}
+.con .yam1 {
+	width: 100%;
+	height: 44px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+	outline: none;
+	text-indent: 1em;
+	font-size: 1.5rem;
+}
+.login p {
+	margin-left: 4%;
+	color:#666;
+	margin-top: 10px;
+}
+.content {
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.content .txt {
+	width: 100%;
+	height: 44px;
+	border: none;
+	border-bottom: 1px solid #dbdbdb;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	outline: none;
+	text-indent: 1em;
+	font-size: 1.5rem;
+}
+.content .yam {
+	width: 65%;
+	height: 44px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+	outline: none;
+	text-indent: 1em;
+	font-size: 1.5rem;
+}
+.content .btn {
+	width: 32%;
+	height: 34px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-size: 1.5rem;
+	background-color: #26c08a;
+	color:#fff;
+}
+
+
+
+
+
+

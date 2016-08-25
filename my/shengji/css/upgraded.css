@@ -1,0 +1,93 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Hiragino Sans GB";
+}
+.login {
+	width: 100%;
+	height: 100%;
+}
+/*导航栏*/
+nav {
+	height: 48px;
+	background-color: #f29004;
+	text-align: center;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#back {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	margin-top: 18px;
+}
+nav>span {
+	display: inline-block;
+	font-size: 1.5rem;
+	color:#fff;		
+}
+#register {
+	float: right;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.con {
+	width: 88%;
+	margin-left: 6%;
+	margin-top: 15px;
+	color: #808080;
+	font-size: 1.5rem;
+}
+.con1 {
+	width: 92%;
+	text-align: center;
+	margin-top: 40px;
+	color: #808080;
+	font-size: 1.5rem;
+}
+.con2 {
+	width: 92%;
+	text-align: center;
+	margin-top: 84px;
+	color: #808080;
+	font-size: 1.5rem;
+}
+.con1 .line,.con2 .line {
+	margin-bottom: 16px;
+	position: relative;
+}
+.con1 .line:after,.con2 .line:after {
+	content: '';
+	width: 32%;
+	height: 2px;
+	background-color: #ddd;
+	position: absolute;
+	margin-left: 6%;
+	top:10px;
+}
+.con1 .line:before,.con2 .line:before {
+	content: '';
+	width: 32%;
+	height: 2px;
+	background-color: #ddd;
+	position: absolute;
+	margin-left: -38%;
+	top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
